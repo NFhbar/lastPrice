@@ -12,9 +12,20 @@ function incrementDummyValueToForceUpdate(){}
 ```
 Forces the speadsheet to update functions return value. Use [Google's Installable Triggers](https://developers.google.com/apps-script/guides/triggers/installable) to select frequency.
 
+## Supported Exchanges
+
+- gemini
+- liqui
+- bittrex
+- poloniex
+- bitfinex
+- cryptopia
+- binance
+- etherdelta
+
 ## Use
 
-simply type:
+simply choose your exchange and type:
 ```
 =bittrex("btc","etc",H2)
 ```
